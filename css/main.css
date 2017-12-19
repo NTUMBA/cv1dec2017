@@ -157,12 +157,12 @@ tr,th{
   padding: 5px;
   margin: 15px;
 }
-.frontEndSkills,.javascriptSkills,.backEndSkills{
+.frontEndSkills,.javascriptSkills,.backEndSkills,.github{
   width: 550px;
   height: 35px;
   border: 3px solid #ff8c00;
 }
-.rectangle1,.rectangle2,.rectangle3{
+.rectangle1,.rectangle2,.rectangle3,.rectangle4{
   padding: 0px;
   height: 35px;
   border: 3px solid #add8e6;
@@ -178,6 +178,9 @@ tr,th{
 }
 .rectangle3{
     width: 420px;
+}
+.rectangle4{
+    width: 500px;
 }
 
 .lapsTime{
