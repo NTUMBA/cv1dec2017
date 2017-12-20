@@ -152,13 +152,14 @@ h3{
 }
 table{
   margin: 0 auto;
+  max-height: 140px;
 }
 tr{
-  height: 36px;
+  height: 35px;
 }
-tr,th{
+th{
   padding: 5px;
-  margin: 15px;
+  /*margin: 15px;*/
 }
 .frontEndSkills,.javascriptSkills,.backEndSkills,.github{
   width: 550px;
@@ -169,19 +170,20 @@ tr,th{
   text-align: center;
   padding: 0px;
   height: 30px;
-  border: 3px solid #add8e6;
+  /*border: 3px solid #add8e6;*/
   background-color: #00bfff;
 
 }
 .rectangle1,.rectangle4{
-  margin-left: -80px;
-  width: 480px;
+  margin-left: -130px;
+  width: 440px;
 
 }
 .arrow-right{
-  margin-left: -80px;
+  margin-left: -172px;
 }
 .arrow-right,.arrow-right_2 ,.arrow-right_3,.arrow-right_4 {
+  /*margin-top: 1px;*/
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
@@ -189,19 +191,19 @@ tr,th{
   border-left: 15px solid #00bfff;
 }
 .rectangle2{
-  margin-left: -210px;
-    width: 350px;
+  margin-left: -240px;
+    width: 330px;
 }
 .arrow-right_2 {
-  margin-left: -340px;
+  margin-left: -392px;
 bfff;
 }
 .rectangle3{
-    margin-left: -140px;
-    width: 420px;
+    margin-left: -188px;
+    width: 385px;
 }
 .arrow-right_3 {
-  margin-left: -200px;
+  margin-left: -284px;
 }
 
 
