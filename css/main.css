@@ -123,7 +123,9 @@ h2{
 }
 h3{
   color:#00bfff;
+  margin-top: 20px;
   margin-left: 26%;
+  margin-bottom: 20px;
   width: 550px;
   padding: 7px;
   border: 1px dotted #ff8c00;;
@@ -148,7 +150,10 @@ h3{
 
 .logo img{
   max-width:150px;
-
+}
+.development{
+  font-weight: bold;
+  font-style: italic;
 }
 table{
   margin: 0 auto;
