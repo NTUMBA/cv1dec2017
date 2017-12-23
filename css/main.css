@@ -149,7 +149,8 @@ h3{
 }
 
 .logo img{
-  max-width:150px;
+  max-width:200px;
+  padding: 0 auto;
 }
 .development{
   font-weight: bold;
