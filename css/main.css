@@ -208,7 +208,6 @@ table .devSkills{
 }
 .arrow-right_2 {
   margin-left: -403px;
-bfff;
 }
 .rectangle3{
     margin-left: -185px;
@@ -247,7 +246,7 @@ color:black;
 width: 95%;
 padding-top: 5%;
 }
-span .shakespeare,span .aristote{
+.mission{
   font-weight: bold!important;
 }
 
@@ -258,17 +257,17 @@ footer p{
 
 /* ##################################################################### */
 /* Small devices (tablets, 544px ) */
-
+@media (min-width:270px) {
+  .wrap{
+    min-height:calc(100vh -85.94px);
+  }
+}
 
 
 
 /* ############################   DESKTOPS   ########################### */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width:754px) {
-  .wrap{
-    min-height:calc(100vh -75px);
-  }
-}
+
 
 
 
