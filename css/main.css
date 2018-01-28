@@ -173,6 +173,10 @@ table .devSkills{
   max-height: 86px!important;
 
 }
+.HtmlCss,.JsStyle,.PhpBdd,.agile,.mission{
+  font-weight: bold!important;
+}
+
 .HtmlCss{
   color: #00bfff;
 }
@@ -280,9 +284,6 @@ margin: 0 auto;
 color:black;
 width: 95%;
 padding-top: 5%;
-}
-.mission{
-  font-weight: bold!important;
 }
 
 
