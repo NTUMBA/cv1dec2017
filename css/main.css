@@ -173,10 +173,46 @@ table .devSkills{
   max-height: 86px!important;
 
 }
+.HtmlCss{
+  color: #00bfff;
+}
+.rectangle1{
+  background-color: #00bfff;
+}
+.arrow-right{
+  border-left-color: #00bfff;
+}
+.JsStyle{
+  color: #bbff00;
+}
+.rectangle2{
+  background-color: #bbff00;
+}
+.arrow-right_2{
+  border-left-color:  #bbff00;
+}
+.PhpBdd{
+  color: #ff7f50 ;
+}
+.rectangle3{
+  background-color: #ff7f50;
+}
+.arrow-right_3{
+  border-left-color: #ff7f50;
+}
+.agile{
+  color: #daa520;
+}
+.rectangle4{
+  background-color: #daa520;
+}
+.arrow-right_4 {
+  border-left-color: #daa520;
+}
 .frontEndSkills,.javascriptSkills,.backEndSkills,.github{
   width: 550px;
   height: 20px;
-  border: 3px solid #ff8c00;
+  border: 3px solid #a9a9a9;
   /*padding-bottom: -19px;*/
 }
 .rectangle1,.rectangle2,.rectangle3,.rectangle4{
@@ -184,15 +220,12 @@ table .devSkills{
   height: 20px;
   padding-top: 18px;
   /*border: 3px solid #add8e6;*/
-  background-color: #00bfff;
-
 }
 .rectangle1,.rectangle4{
   margin-left: -130px;
   width: 440px;
-
 }
-.arrow-right{
+.arrow-right,.arrow-right_4{
   margin-left: -183px;
 }
 .arrow-right,.arrow-right_2 ,.arrow-right_3,.arrow-right_4 {
@@ -201,7 +234,8 @@ table .devSkills{
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #00bfff;
+  border-left-width: 10px;
+  border-left-style: solid;
 }
 .rectangle2{
   margin-left: -240px;
