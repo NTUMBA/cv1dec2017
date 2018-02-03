@@ -181,25 +181,27 @@ table .devSkills{
   color: #00bfff;
 }
 .rectangle1{
-  background-color: #00bfff;
+  background: linear-gradient(to right, aliceblue, deepskyblue);
 }
 .arrow-right{
   border-left-color: #00bfff;
 }
 .JsStyle{
-  color: #bbff00;
+  color: greenyellow;
 }
 .rectangle2{
-  background-color: #bbff00;
+  background-color: #greenyellow;
+    background: linear-gradient(to right, aliceblue, greenyellow);
 }
 .arrow-right_2{
-  border-left-color:  #bbff00;
+  border-left-color:  greenyellow;
 }
 .PhpBdd{
   color: #ff7f50 ;
 }
 .rectangle3{
   background-color: #ff7f50;
+  background: linear-gradient(to right, aliceblue, coral);
 }
 .arrow-right_3{
   border-left-color: #ff7f50;
@@ -209,25 +211,27 @@ table .devSkills{
 }
 .rectangle4{
   background-color: #daa520;
+  background: linear-gradient(to right, aliceblue, goldenrod);
 }
 .arrow-right_4 {
   border-left-color: #daa520;
 }
 .frontEndSkills,.javascriptSkills,.backEndSkills,.github{
   width: 550px;
-  height: 20px;
+  height: 35px;
   border: 3px solid #a9a9a9;
-  /*padding-bottom: -19px;*/
+
+  padding-top: 10px;
 }
 .rectangle1,.rectangle2,.rectangle3,.rectangle4{
   text-align: center;
   height: 20px;
-  padding-top: 18px;
-  /*border: 3px solid #add8e6;*/
+  padding-top: 0px;
 }
 .rectangle1,.rectangle4{
   margin-left: -130px;
   width: 440px;
+  padding-left: 400px;
 }
 .arrow-right,.arrow-right_4{
   margin-left: -183px;
@@ -243,13 +247,15 @@ table .devSkills{
 }
 .rectangle2{
   margin-left: -240px;
-    width: 330px;
+  padding-left: 287px;
+  width: 330px;
 }
 .arrow-right_2 {
   margin-left: -403px;
 }
 .rectangle3{
     margin-left: -185px;
+    padding-left: 345px;
     width: 385px;
 }
 .arrow-right_3 {
