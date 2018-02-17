@@ -173,7 +173,7 @@ table .devSkills{
   max-height: 86px!important;
 
 }
-.HtmlCss,.JsStyle,.PhpBdd,.agile,.mission{
+.HtmlCss,.JsStyle,.PhpBdd,.java,.agile,.mission{
   font-weight: bold!important;
 }
 
@@ -199,6 +199,9 @@ table .devSkills{
 .PhpBdd{
   color: #ff7f50 ;
 }
+.java{
+  color: yellow;
+}
 .rectangle3{
   background-color: #ff7f50;
   background: linear-gradient(to right, aliceblue, coral);
@@ -210,39 +213,48 @@ table .devSkills{
   color: #daa520;
 }
 .rectangle4{
+  background-color: yellow;
+  background: linear-gradient(to right, aliceblue, yellow);
+}
+
+.rectangle5{
   background-color: #daa520;
   background: linear-gradient(to right, aliceblue, goldenrod);
 }
 .arrow-right_4 {
+  border-left-color: yellow;
+}
+.arrow-right_5 {
   border-left-color: #daa520;
 }
-.frontEndSkills,.javascriptSkills,.backEndSkills,.github{
+.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava, .github{
   width: 550px;
   height: 35px;
   border: 3px solid #a9a9a9;
 
   padding-top: 10px;
 }
-.rectangle1,.rectangle2,.rectangle3,.rectangle4{
+.rectangle1,.rectangle2,.rectangle3,.rectangle4,,.rectangle5{
   text-align: center;
   height: 20px;
-  padding-top: 0px;
+  padding-top: 15px;
 }
-.rectangle1,.rectangle4{
+.rectangle1,.rectangle5{
   margin-left: -130px;
   width: 440px;
   padding-left: 400px;
 }
-.arrow-right,.arrow-right_4{
-  margin-left: -183px;
+
+.arrow-right,.arrow-right_5{
+  margin-left: -178px;
 }
-.arrow-right,.arrow-right_2 ,.arrow-right_3,.arrow-right_4 {
+.arrow-right,.arrow-right_2 ,.arrow-right_3,.arrow-right_4,.arrow-right_5 {
   /*margin-top: 1px;*/
   width: 0;
   height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left-width: 10px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left-width: 15px;
   border-left-style: solid;
 }
 .rectangle2{
@@ -251,15 +263,28 @@ table .devSkills{
   width: 330px;
 }
 .arrow-right_2 {
-  margin-left: -403px;
+  margin-left: -400px;
 }
 .rectangle3{
     margin-left: -185px;
     padding-left: 345px;
     width: 385px;
 }
+.rectangle4{
+  margin-left: -349px;
+  width: 220px;
+  padding-left: 182px;
+}
+.rectangle5{
+  margin-left: -130px;
+  width: 440px;
+  padding-left: 400px;
+}
 .arrow-right_3 {
-  margin-left: -293px;
+  margin-left: -288px;
+}
+.arrow-right_4 {
+  margin-left: -618px;
 }
 
 

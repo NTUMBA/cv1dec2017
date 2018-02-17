@@ -9,6 +9,8 @@ function main() {
   $('.rectangle3').fadeIn(7000);
   $('.rectangle4').hide();
   $('.rectangle4').fadeIn(9000);
+  $('.rectangle5').hide();
+  $('.rectangle5').fadeIn(11000);
   $('.arrow-right').hide();
   $('.arrow-right').fadeIn(5000);
   $('.arrow-right_2').hide();
@@ -17,6 +19,8 @@ function main() {
   $('.arrow-right_3').fadeIn(9000);
   $('.arrow-right_4').hide();
   $('.arrow-right_4').fadeIn(11000);
+  $('.arrow-right_5').hide();
+  $('.arrow-right_5').fadeIn(13000);
   $('.mission').hide();
-  $('.mission').fadeIn(14000);
+  $('.mission').fadeIn(16000);
 }
