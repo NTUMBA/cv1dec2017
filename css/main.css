@@ -239,14 +239,14 @@ table .devSkills{
   height: 20px;
   padding-top: 15px;
 }
-.rectangle1,.rectangle5{
+.rectangle1,.rectangle3{
   margin-left: -130px;
-  width: 440px;
-  padding-left: 400px;
+  width: 425px;
+  padding-left: 390px;
 }
 
-.arrow-right,.arrow-right_5{
-  margin-left: -178px;
+.arrow-right,.arrow-right_3{
+  margin-left: -193px;
 }
 .arrow-right,.arrow-right_2 ,.arrow-right_3,.arrow-right_4,.arrow-right_5 {
   /*margin-top: 1px;*/
@@ -259,37 +259,35 @@ table .devSkills{
 }
 .rectangle2{
   margin-left: -240px;
-  padding-left: 287px;
-  width: 330px;
+  padding-left: 280px;
+  width: 315px;
 }
+
 .arrow-right_2 {
-  margin-left: -400px;
+  margin-left: -415px;
 }
-.rectangle3{
-    margin-left: -185px;
-    padding-left: 345px;
-    width: 385px;
-}
+
+
 .rectangle4{
   margin-left: -349px;
-  width: 220px;
-  padding-left: 182px;
+  width: 205px;
+  padding-left: 172px;
 }
 .rectangle5{
-  margin-left: -130px;
-  width: 440px;
-  padding-left: 400px;
+  margin-left: -103px;
+  width: 450px;
+  padding-left: 415px
 }
-.arrow-right_3 {
-  margin-left: -288px;
-}
+
+
 .arrow-right_4 {
-  margin-left: -618px;
+  margin-left: -632px;
+}
+.arrow-right_5{
+  margin-left: -143px;
 }
 
-
-.lapsTime{
-font-size: 1.1em;
+.lapsTimefont-size: 1.1em;
 }
 
 .wrapper{
