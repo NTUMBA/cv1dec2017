@@ -103,10 +103,6 @@ body{
   background-color:#FFD;
   text-align: center;
 }
-h1{
-  color: #1e90ff; !important;
-
-}
 header, footer{
 width: 100%;
 font: normal, 1.5em, bold, cursive;
@@ -330,6 +326,11 @@ padding-top: 5%;
 
 footer p{
   text-align: center;
+}
+.focus{
+  color: #008080;
+  margin: 15px auto;
+  background-color: #ff8c00;
 }
 
 /* ##################################################################### */
