@@ -147,7 +147,6 @@ h3{
 }
 .identity,.jakarta{
   padding: 7px;
-
   border: 2px solid #ff8c00;
 }
 .logo img{
@@ -213,7 +212,7 @@ table .devSkills{
   color: #ff7f50 ;
 }
 .java{
-  color: yellow;
+  color: #008080;
 }
 .rectangle3{
   background-color: #ff7f50;
@@ -226,8 +225,8 @@ table .devSkills{
   color: #daa520;
 }
 .rectangle4{
-  background-color: yellow;
-  background: linear-gradient(to right, aliceblue, yellow);
+  background-color: #008080;
+  background: linear-gradient(to right, aliceblue, #008080);
 }
 
 .rectangle5{
@@ -235,7 +234,7 @@ table .devSkills{
   background: linear-gradient(to right, aliceblue, goldenrod);
 }
 .arrow-right_4 {
-  border-left-color: yellow;
+  border-left-color: #008080;
 }
 .arrow-right_5 {
   border-left-color: #daa520;
