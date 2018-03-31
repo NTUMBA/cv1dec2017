@@ -138,21 +138,32 @@ h3{
   border: 1px dotted #ff8c00;
   padding:4px;
 }
-.logo,.identity{
+.logo,.identity,.jakarta{
   margin-top: 10px;
   margin-bottom: 5px;
   margin-left: 10px;
   border-radius: 8px;
 
 }
-.identity{
+.identity,.jakarta{
   padding: 7px;
-  border: 4px solid #ff8c00;
-}
 
+  border: 2px solid #ff8c00;
+}
 .logo img{
   max-width:200px;
+}
+.logo img,.jakarta img{
   padding: 0 auto;
+}
+.jakarta{
+  float: right;
+}
+h3,.logo,.jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava,.github {
+  background-color:#FFE;
+}
+.jakarta img{
+  max-width:400px;
 }
 .development{
   font-weight: bold;
