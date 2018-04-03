@@ -134,10 +134,12 @@ h3{
   border: 1px dotted #ff8c00;
   padding:4px;
 }
+.logo,.identity{
+  margin-left: 10px;
+}
 .logo,.identity,.jakarta{
   margin-top: 10px;
   margin-bottom: 5px;
-  margin-left: 10px;
   border-radius: 8px;
 
 }
@@ -153,6 +155,7 @@ h3{
 }
 .jakarta{
   float: right;
+  margin-right: 10px;
 }
 h3,.logo,.jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava,.github {
   background-color:#FFE;
