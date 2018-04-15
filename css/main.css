@@ -229,6 +229,9 @@ table .devSkills{
 }
 
 .rectangle5{
+  margin-left: -103px;
+  width: 450px;
+  padding-left: 415px;
   background-color: #daa520;
   background: linear-gradient(to right, aliceblue, goldenrod);
 }
@@ -268,32 +271,28 @@ table .devSkills{
   border-left-width: 15px;
   border-left-style: solid;
 }
-.rectangle2{
+.rectangle2,.rectangle4{
   margin-left: -240px;
   padding-left: 280px;
   width: 315px;
 }
 
-.arrow-right_2 {
+.arrow-right_2,.arrow-right_4 {
   margin-left: -415px;
 }
 
 
-.rectangle4{
+/*.rectangle4{
   margin-left: -349px;
   width: 205px;
   padding-left: 172px;
-}
-.rectangle5{
-  margin-left: -103px;
-  width: 450px;
-  padding-left: 415px
-}
+}*/
 
 
-.arrow-right_4 {
+
+/*.arrow-right_4 {
   margin-left: -632px;
-}
+}*/
 .arrow-right_5{
   margin-left: -143px;
 }
@@ -314,7 +313,7 @@ ul {
 }
 ul li{
   list-style: none;
-  f
+
 }
 /*Index======================================================================
 ==============================================================================*/
