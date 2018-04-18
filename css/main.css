@@ -157,7 +157,7 @@ h3{
   float: right;
   margin-right: 10px;
 }
-h3,.logo,.jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava,.github {
+h3,.logo,.jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava,.scrum {
   background-color:#FFE;
 }
 .jakarta img{
@@ -241,7 +241,7 @@ table .devSkills{
 .arrow-right_5 {
   border-left-color: #daa520;
 }
-.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava, .github{
+.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava, .scrum{
   width: 550px;
   height: 35px;
   border: 3px solid #a9a9a9;
