@@ -168,22 +168,28 @@ h3,.logo,.jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkill
   font-style: italic;
 }
 table{
-  margin: 0 auto;
-
+  margin: 10 auto;
+  margin-bottom: 8px;
 }
+.contenu{
+  margin: 0 auto;
+}
+
 tr{
-  max-height: 20px;
+  padding-top: 3px;
+  max-height: 35px;
 
 }
 th{
   font-weight: normal!important;
-  padding: 2px;
+  padding: 1px;
   /*margin: 15px;*/
 }
 table .devSkills{
   max-height: 86px!important;
-
+  margin-top: 10px;
 }
+
 .HtmlCss,.JsStyle,.PhpBdd,.java,.agile,.mission{
   font-weight: bold!important;
 }
@@ -202,7 +208,7 @@ table .devSkills{
 }
 .rectangle2{
   background-color: #greenyellow;
-    background: linear-gradient(to right, aliceblue, greenyellow);
+  background: linear-gradient(to right, aliceblue, greenyellow);
 }
 .arrow-right_2{
   border-left-color:  greenyellow;
@@ -243,15 +249,15 @@ table .devSkills{
 }
 .frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava, .scrum{
   width: 550px;
-  height: 35px;
-  border: 3px solid #a9a9a9;
+  height: 30px;
+background-color: transparent;
 
-  padding-top: 10px;
+  padding-top: 3px;
 }
 .rectangle1,.rectangle2,.rectangle3,.rectangle4,,.rectangle5{
   text-align: center;
   height: 20px;
-  padding-top: 15px;
+  padding-top: 25px;
 }
 .rectangle1,.rectangle3{
   margin-left: -130px;
@@ -260,7 +266,7 @@ table .devSkills{
 }
 
 .arrow-right,.arrow-right_3{
-  margin-left: -193px;
+  margin-left: -200px;
 }
 .arrow-right,.arrow-right_2 ,.arrow-right_3,.arrow-right_4,.arrow-right_5 {
   /*margin-top: 1px;*/
@@ -278,7 +284,7 @@ table .devSkills{
 }
 
 .arrow-right_2,.arrow-right_4 {
-  margin-left: -415px;
+  margin-left: -420px;
 }
 
 
@@ -294,7 +300,7 @@ table .devSkills{
   margin-left: -632px;
 }*/
 .arrow-right_5{
-  margin-left: -143px;
+  margin-left: -148px;
 }
 
 .lapsTimefont-size: 1.1em;
@@ -337,9 +343,61 @@ footer p{
 
 /* ##################################################################### */
 /* Small devices (tablets, 544px ) */
-@media (min-width:270px) {
+@media (min-width:375px) {
   .wrap{
     min-height:calc(100vh -85.94px);
+  }
+  .logo{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-size: 75%;
+  }
+  section{
+    font-size: 90%;
+  }
+  .portfolioGit{
+    font-size: 80%;
+  }
+ h1{
+   margin:10px auto;
+   width:75%;
+   font-size: 85%;
+ }
+  h3{
+    margin: 20px auto 10px auto;
+    width:20%;
+    font-size: 75%;
+  }
+  .connectPictures{
+    width:70%;
+  }
+
+  .jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava, .scrum,.colortext{
+    display:none;
+  }
+}
+@media (min-width:530px){
+  .jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava, .scrum,.colortext{
+    display:inline-table;
+  }
+  section{
+    font-size: 97%;
+  }
+  h1{
+    margin:10px auto;
+    width:75%;
+    font-size: 95%;
+  }
+
+  h3{
+    margin: 40px auto 20px auto;
+    width:25%;
+    font-size: 75%;
+  }
+  .connectPictures{
+    width:75%;
   }
 }
 
