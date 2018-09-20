@@ -11,6 +11,8 @@ function main() {
   $('.rectangle4').fadeIn(9000);
   $('.rectangle5').hide();
   $('.rectangle5').fadeIn(11000);
+  $('.rectangle6').hide();
+  $('.rectangle6').fadeIn(13000);
   $('.arrow-right').hide();
   $('.arrow-right').fadeIn(5000);
   $('.arrow-right_2').hide();
@@ -21,6 +23,8 @@ function main() {
   $('.arrow-right_4').fadeIn(11000);
   $('.arrow-right_5').hide();
   $('.arrow-right_5').fadeIn(13000);
+  $('.arrow-right_6').hide();
+  $('.arrow-right_6').fadeIn(15000);
   $('.mission').hide();
   $('.mission').fadeIn(16000);
 }

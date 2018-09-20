@@ -157,7 +157,7 @@ h3{
   float: right;
   margin-right: 10px;
 }
-h3,.logo,.jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava,.scrum {
+h3,.logo,.jakarta,.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava,.scrum{
   background-color:#FFE;
 }
 .jakarta img{
@@ -190,7 +190,7 @@ table .devSkills{
   margin-top: 10px;
 }
 
-.HtmlCss,.JsStyle,.PhpBdd,.java,.agile,.mission{
+.HtmlCss,.JsStyle,.PhpBdd,.java,.agile,.mission,.docker{
   font-weight: bold!important;
 }
 
@@ -226,7 +226,7 @@ table .devSkills{
 .arrow-right_3{
   border-left-color: #ff7f50;
 }
-.agile{
+.agile,.docker{
   color: #daa520;
 }
 .rectangle4{
@@ -241,23 +241,30 @@ table .devSkills{
   background-color: #daa520;
   background: linear-gradient(to right, aliceblue, goldenrod);
 }
+.rectangle6{
+  margin-left: -103px;
+  /*width: 350px;*/
+  padding-left: 415px;
+  background-color: #daa520;
+  background: linear-gradient(to right, aliceblue, goldenrod);
+}
 .arrow-right_4 {
   border-left-color: #008080;
 }
-.arrow-right_5 {
+.arrow-right_5,.arrow-right_6 {
   border-left-color: #daa520;
 }
-.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava, .scrum{
+.frontEndSkills,.javascriptSkills,.backEndSkills,.backEndSkillsJava,.docks, .scrum{
   width: 550px;
   height: 30px;
-background-color: transparent;
+  background-color: transparent;
 
   padding-top: 3px;
 }
-.rectangle1,.rectangle2,.rectangle3,.rectangle4,,.rectangle5{
+.rectangle1,.rectangle2,.rectangle3,.rectangle4,.rectangle5,.rectangle6{
   text-align: center;
-  height: 20px;
-  padding-top: 25px;
+  /*height: 20px;
+  padding-top: 25px;*/
 }
 .rectangle1,.rectangle3{
   margin-left: -130px;
@@ -268,7 +275,7 @@ background-color: transparent;
 .arrow-right,.arrow-right_3{
   margin-left: -200px;
 }
-.arrow-right,.arrow-right_2 ,.arrow-right_3,.arrow-right_4,.arrow-right_5 {
+.arrow-right,.arrow-right_2 ,.arrow-right_3,.arrow-right_4,.arrow-right_5,.arrow-right_6 {
   /*margin-top: 1px;*/
   width: 0;
   height: 0;
@@ -277,14 +284,30 @@ background-color: transparent;
   border-left-width: 15px;
   border-left-style: solid;
 }
-.rectangle2,.rectangle4{
+.rectangle2{
   margin-left: -240px;
   padding-left: 280px;
   width: 315px;
 }
+.rectangle4{
+  margin-left: -350px;
+  padding-left: 150px;
+  width: 205px;
+}
+.rectangle6{
+  margin-left: -463px;
+  padding-left: 40px;
+  width: 95px;
+}
 
-.arrow-right_2,.arrow-right_4 {
+.arrow-right_2{
   margin-left: -420px;
+}
+.arrow-right_4 {
+  margin-left: -640px;
+}
+.arrow-right_6 {
+  margin-left: -861px;
 }
 
 
